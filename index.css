@@ -1,0 +1,55 @@
+body{
+   
+  
+        text-align: center;
+        background-image: url('background image.jpeg');
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+    
+    
+}
+#inputbox{
+    height: 30px;
+    font-size: 25px;
+}
+.deleteBtn {
+    cursor: pointer;
+    color: red;
+    margin-left: 50px;
+  }
+  ul{
+    list-style: none;
+    /* background-color: rgb(132, 0, 255); */
+  }
+  #todolist li {
+    margin-bottom: 8px;
+  }
+  
+  #todolist li.unread {
+    background-color: #ffeeba; /* Default background color for unread items */
+    border-radius: 100px;
+  }
+  
+  #todolist li.complete {
+    background-color: #d4edda; /* Background color for completed items */
+    border-radius: 100%;
+  }
+  li{
+    font-size: 45px;
+  }
+  .read-checkbox{
+    width: 20px;
+    height: 20px;
+    margin-right: 50px;
+  }
+  button:hover{
+    background-color:rgb(168, 238, 191) ;
+    color: blanchedalmond;
+  }
+  button:active{
+    color: tomato;
+    background-color: aquamarine;
+  }
+
+

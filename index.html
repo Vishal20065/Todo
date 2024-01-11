@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Todo</title>
+</head>
+<body>
+   <h1> ToDo List</h1>
+   <!-- <form action="" onsubmit="AddTodo(event)"> -->
+    <div >
+        <input id="inputbox" type="text" placeholder="Add your Todo List">
+        <button id="addtodo" onclick="AddTodo()">Add Todo</button>
+        <!-- <button id="addtodo" >Add Todo</button> -->
+
+    </div>
+   <!-- </form> -->
+   <div>
+    <h2><span id="incompleteCount">0 </span>Task left</h2>
+    <button class="all" onclick="All()">All</button>
+    <button class="complete" onclick=" Complete()">Complete</button>
+    <button class="uncomplete" onclick="Incomplete()">Incomplete</button>
+   </div>
+   <ul id="todolist"></ul>
+<script  src="index.js"></script>
+</body>
+</html>
